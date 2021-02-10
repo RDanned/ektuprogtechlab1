@@ -1,0 +1,27 @@
+{
+  {
+    "id": 1,
+    "name": "Tesla",
+    "logo": "/uploads/images/tesla-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Mitsubishi",
+    "logo": "/uploads/images/mitsubishi-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "BMW",
+    "logo": "/uploads/images/bmw-logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Subaru",
+    "logo": "/uploads/images/subaru-logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Volkswagen",
+    "logo": "/uploads/images/volkswagen-logo.png"
+  }
+}

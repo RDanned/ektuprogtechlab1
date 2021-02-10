@@ -1,0 +1,29 @@
+﻿<Page x:Class="wpf1._3._5.Catalog.Categories"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:wpf1._3._5.Catalog"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Categories">
+
+    <Grid Background="White">
+        <Label Content="Категории" HorizontalAlignment="Left" Margin="95,82,0,0" VerticalAlignment="Top" Width="137"/>
+
+        <TabControl TabStripPlacement="Left" Margin="0, 0, 0, 10">
+            <TabItem Name="fontweight" Header="FontWeight">
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="FontWei"/><Run Text="ght property information goes here."/></TextBlock>
+            </TabItem>
+
+            <TabItem Name="fontsize" Header="FontSize">
+                <TabItem.Content>
+                    <TextBlock TextWrapping="WrapWithOverflow">
+                        FontSize property information goes here.
+                    </TextBlock>
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf1._3._5"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="wpf1._3._5.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        WindowState="Maximized"
+    >
+    <Grid x:Name="MainWindowContent">
+        <StackPanel x:Name="Navigation" Orientation="Horizontal" VerticalAlignment="Top" Height="35">
+        </StackPanel>
+        <Button Content="Open editor" HorizontalAlignment="Left" Margin="630,8,0,0" VerticalAlignment="Top" Width="117" Click="EditorBtn" RenderTransformOrigin="0.496,0.481"/>
+        <Frame x:Name="TestFrame" NavigationUIVisibility="Hidden" Margin="0,40,0,-1">
+
+        </Frame>
+    </Grid>
+</Window>
